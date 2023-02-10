@@ -1,4 +1,4 @@
-FROM gcr.io/cloud-builders/go:1.18 AS build-env
+FROM gcr.io/cloud-builders/go:alpine-1.20 AS build-env
 
 WORKDIR /build
 COPY . .
